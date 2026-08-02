@@ -11,11 +11,11 @@
 --Pale-blue: hsl(221, 100%, 96%);
 --Light-lavender: hsl(241, 100%, 89%);
 --Dark-gray-blue: hsl(224, 30%, 27%);
---opacity-red: hsl(from var(--Light-red) h s l / 0.1);
---opacity-orange: hsl(from var(--Orangey-yellow) h s l / 0.1);
---opacity-green: hsl(from var(--Green-teal) h s l / 0.1);
---opacity-cobalt-blue: hsl(from var(--Cobalt-blue) h s l / 0.1);
---opacity-dark-gray: hsl(from var(--Dark-gray-blue) h s l / 0.1);
+--opacity-red: hsl(from var(--Light-red) h s l / 0.05);
+--opacity-orange: hsl(from var(--Orangey-yellow) h s l / 0.05);
+--opacity-green: hsl(from var(--Green-teal) h s l / 0.05);
+--opacity-cobalt-blue: hsl(from var(--Cobalt-blue) h s l / 0.05);
+--opacity-dark-gray: hsl(from var(--Dark-gray-blue) h s l / 0.5);
 }
 
 *, *::after, *::before {
