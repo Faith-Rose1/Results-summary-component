@@ -1,0 +1,26 @@
+@media screen and (width >= 37.5rem) {
+  .results-container {
+    display: flex;
+    flex-direction: row;
+    border-radius: 2rem;
+    overflow: hidden;
+  } 
+
+  .result-section, .summary-section {
+    flex: 1 1 0;
+    max-inline-size: 50%;
+  }
+
+  .result-section {
+    border-start-end-radius: 2rem;
+  }
+
+  .result-score {
+    inline-size: 12.3rem;
+  }
+
+  .summary-section ul {
+    gap: 1.1rem;
+  }
+
+}

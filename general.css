@@ -1,0 +1,49 @@
+:root {
+--Light-red: hsl(0, 100%, 67%);
+--Orangey-yellow: hsl(39, 100%, 56%);
+--Green-teal: hsl(166, 100%, 37%);
+--Cobalt-blue: hsl(234, 85%, 45%);
+--Light-slate-blue-background: hsl(252, 100%, 67%);
+--Light-royal-blue-background: hsl(241, 81%, 54%);
+--Violet-blue-circle: hsla(256, 72%, 46%, 1);
+--Persian-blue-circle: hsla(241, 72%, 46%, 0);
+--White: hsl(0, 0%, 100%);
+--Pale-blue: hsl(221, 100%, 96%);
+--Light-lavender: hsl(241, 100%, 89%);
+--Dark-gray-blue: hsl(224, 30%, 27%);
+--opacity-red: hsl(from var(--Light-red) h s l / 0.1);
+--opacity-orange: hsl(from var(--Orangey-yellow) h s l / 0.1);
+--opacity-green: hsl(from var(--Green-teal) h s l / 0.1);
+--opacity-cobalt-blue: hsl(from var(--Cobalt-blue) h s l / 0.1);
+--opacity-dark-gray: hsl(from var(--Dark-gray-blue) h s l / 0.1);
+}
+
+*, *::after, *::before {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Hanken Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-block-size: 100vh;
+  font-size: clamp(1rem, 2vw + 0.5rem, 1.125rem);
+  background-color: var(--Pale-blue);
+}
+
+main {
+  inline-size: clamp(20rem, 100%, 46rem);
+}
+
+.results-container {
+  background-color: var(--White); 
+  display: flex;
+  flex-direction: column; 
+}
+
